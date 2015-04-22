@@ -4,6 +4,6 @@ require('pry')
 
 describe('String#find_and_replace') do
   it("given a sentence, it replaces instances of a given word with another given word") do
-    expect("My bike is the best bike of all bikes in bikeland.".find_and_replace("bike", "skateboard")).to(eq("My skateboard is the best skateboard of all bikes in bikeland."))
+    expect("My cat loves the cathedral and caterwauling.".find_and_replace("cat", "dog")).to(eq("My dog loves the doghedral and dogerwauling."))
   end
 end
